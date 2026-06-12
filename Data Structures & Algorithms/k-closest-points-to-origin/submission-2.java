@@ -36,7 +36,7 @@ then the closest point will be at the top and the next closest will be removed n
 Removing from the heap k times, we will get exactly the k closest points,
 which works because the heap always keeps the smallest distances at the front.
 
-Time: 
+Time: O(n * log n + k * log n) due to inserting each point with a heap push
 Space: O(n) 
 * where n is length of array points
 
