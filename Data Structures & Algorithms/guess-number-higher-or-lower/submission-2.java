@@ -58,7 +58,7 @@ Based on those results, we can eliminate either one-third or two-thirds of the s
 This approach does not improve on the binary search for this problem
 due to more API calls per iteration.
 
-Time: O(log n)
+Time: O(log3 n)
 Space: O(1)
 
  */
