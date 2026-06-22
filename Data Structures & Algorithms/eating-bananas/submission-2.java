@@ -64,7 +64,7 @@ class Solution {
     public int minEatingSpeed(int[] piles, int h) {
         int left = 1;
         int right = Arrays.stream(piles).max().getAsInt();
-        int res = right;
+        int res = right;    // serves as "best answer so far" tracker
 
         while (left <= right) {
             int k = (left + right) / 2;
