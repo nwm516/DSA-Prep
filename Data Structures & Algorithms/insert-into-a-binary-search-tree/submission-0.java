@@ -66,7 +66,7 @@ Return current node after the recursive call.
  /*
 Binary Search Approach Solution
 
-Time & Space: O(log n) [ideally] / O(n) [worst-case]
+Time & Space: O(h) (with h being height of given binary search tree)
 
  */
 class Solution {
